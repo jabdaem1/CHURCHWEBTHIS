@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>St. George Orthodox Church | Home</title>
+
+  <!-- Fonts similar to the design -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top strip -->
+  <div class="top-strip">
+    <div class="container top-strip__inner">
+      <div class="social">
+        <a class="social__btn" href="https://www.instagram.com/stgeorgeterrehaute/" target="_blank"
+   rel="noopener noreferrer" aria-label="Instagram">
+          <img class="social__icon" src="instagramButton.png" alt="Instagram" />
+        </a>
+        <a class="social__btn" href="https://www.youtube.com/channel/UC_gXxXkQIO84Xg648N2pahg" target="_blank"
+   rel="noopener noreferrer" aria-label="YouTube">
+          <img class="social__icon" src="youtubeButton.png" alt="YouTube" />
+        </a>
+        <a class="social__btn" href="https://www.tiktok.com/@saintgeorgeterrehaute" target="_blank"
+   rel="noopener noreferrer" aria-label="TikTok">
+            <img class="social__icon" src="tiktokButton.png" alt="TikTok" />
+        </a>
+        <a class="social__btn" href="https://www.facebook.com/groups/stgeorgeterrehaute/" target="_blank"
+   rel="noopener noreferrer" aria-label="Facebook">
+    <svg class="social__svg" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="currentColor"
+        d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.9.3-1.6 1.7-1.6h1.5V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3H10v8h3.5z"/>
+    </svg>
+  </a>
+
+      </div>
+
+      <a class="top-strip__contact" href="https://forms.gle/EeXXZSRTJjDKivx8A" target="_blank" rel="noopener noreferrer">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__icon-img" src="stgeorgePic.png" alt="St. George logo" />
+        <div class="brand__text">
+          <div class="brand__name">St.George</div>
+          <div class="brand__sub">of Terre Haute</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav__link" href="index.html">Home</a>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="aboutUs.html" aria-haspopup="true" aria-expanded="false">
+            About Us <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="About Us">
+            <a class="dropdown__link" href="clergy.html" role="menuitem">Clergy</a>
+            <a class="dropdown__link" href="patronSaint.html" role="menuitem">Patron Saint</a>
+            <a class="dropdown__link" href="services.html" role="menuitem">Church Services</a>
+            <a class="dropdown__link" href="#" role="menuitem">Links</a>
+          </div>
+        </div>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="information.html" aria-haspopup="true" aria-expanded="false">
+            Information <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="Information">
+            <a class="dropdown__link" href="articles.html" role="menuitem">Articles</a>
+            <a class="dropdown__link" href="prayers.html" role="menuitem">Prayers</a>
+            <a class="dropdown__link" href="reflections.html" role="menuitem">Reflections/Homilies</a>
+          </div>
+        </div>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="ministries.html" aria-haspopup="true" aria-expanded="false">
+            Ministries <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="Ministries">
+          <a class="dropdown__link" href="altarBoys.html" role="menuitem">Altar Servers</a>
+            <a class="dropdown__link" href="soil.html" role="menuitem">SOIL</a>
+            <a class="dropdown__link" href="ladiesSociety.html" role="menuitem">Ladies Society</a>
+            <a class="dropdown__link" href="mensClub.html" role="menuitem">Men's Club</a>
+            <a class="dropdown__link" href="teenSoyo.html" role="menuitem">Teen Soyo</a>
+            <a class="dropdown__link" href="sundaySchool.html" role="menuitem">Sunday School</a>
+            <a class="dropdown__link" href="parishCouncil.html" role="menuitem">Parish Council</a>
+          </div>
+        </div>
+
+        <a class="nav__link" href="events.html">Events</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        ☰
+      </button>
+    </div>
+
+    <!-- Mobile nav -->
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <div class="container mobile-nav__inner">
+        <a class="mobile-nav__link" href="index.html">Home</a>
+        <a class="mobile-nav__link" href="aboutUs.html">About Us</a>
+        <a class="mobile-nav__link" href="information.html">Information</a>
+        <a class="mobile-nav__link" href="ministries.html">Ministries</a>
+        <a class="mobile-nav__link" href="events.html">Events</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero page-hero--ministries">
+      <div class="page-hero__shade" aria-hidden="true"></div>
+      <div class="container page-hero__inner">
+        <h1 class="page-hero__title">Church Services</h1>
+      </div>
+    </section>
+
+  <!-- Main -->
+  <main>
+
+      <div class="container">
+        <div class="section__rule" aria-hidden="true"></div>
+
+        <div class="about-card">
+          <p>
+            Vespers
+
+Vespers is the Church’s evening prayer service, traditionally offered at sunset, and it serves as the spiritual “beginning” of the liturgical day in Orthodox life. As daylight fades, the Church gathers to give thanks for God’s mercy, to ask forgiveness for the day that has passed, and to enter the night with prayer and peace. The hymns and psalms of Vespers place us inside the story of salvation—remembering God’s creation of the world, humanity’s fall, and the hope we have in Christ, the Light that no darkness can overcome.
+
+A central moment in Vespers is the entrance with the censer (and sometimes the Gospel), accompanied by the hymn “O Gladsome Light,” which proclaims Christ as the gentle and radiant Light of the Father. Incense rises as a sign of our prayers ascending to God and as a reminder that worship involves the whole person—mind, heart, and senses. Vespers is both quiet and powerful: it prepares the soul for Sunday, for feast days, and for a life of repentance and gratitude, teaching us to end each day by turning our attention back to God.
+
+Orthros (Matins)
+
+Orthros, also called Matins, is the Church’s morning prayer service and is often served before the Divine Liturgy on Sundays and feast days. If Vespers opens the liturgical day, Orthros fills it with the first light of praise—calling the faithful to wake up spiritually and to begin anew in the presence of God. The prayers, psalms, and hymns of Orthros are rich with themes of repentance, mercy, and resurrection, helping prepare the heart to receive the joy and truth of the Gospel.
+
+On Sundays, Orthros is especially focused on the Resurrection of Christ. The Church proclaims that Christ has trampled down death and that His victory is not just a past event, but a living reality that transforms the world and the believer. You’ll often hear Resurrection hymns, the reading of the Gospel, and beautiful poetic praises that honor Christ, the Theotokos (the Mother of God), and the saints of the day. Orthros is a deep and reverent service that forms us over time—training our hearts to worship, to listen, and to live in the light of Christ.
+
+Divine Liturgy
+
+The Divine Liturgy is the central act of Orthodox worship and the heart of the Church’s life. It is not simply a service we attend, but a sacred offering in which heaven and earth meet. In the Divine Liturgy, the faithful gather as the Body of Christ to hear the Word of God proclaimed and to offer prayer, thanksgiving, and praise. It is called “Divine” because it is God’s work among His people—Christ Himself is present, blessing, teaching, and drawing us into communion with Him.
+
+The climax of the Divine Liturgy is the Holy Eucharist (Holy Communion), when bread and wine are offered and—by the grace of the Holy Spirit—become the true Body and Blood of Christ. This mystery is the greatest gift of love: God gives Himself to us so that we may be united to Him and to one another. The Liturgy shapes everything about Orthodox life: it teaches us how to repent, how to forgive, how to give thanks, and how to live as Christians in the world. Leaving the Liturgy, we are sent out strengthened by Christ to love, to serve, and to bear witness to His Kingdom in our daily lives.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+      <section class="section section--spacious about-section"></section>
+
+<!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="container footer__inner">
+        <div class="footer__divider"><span></span><span class="footer__cross">
+        </span><span></span></div>
+
+
+        <div class="footer__grid">
+          <div class="footer-col">
+            <h4 class="footer-col__title">Location</h4>
+            <p class="footer-col__text">
+              1900 S 4th St<br>
+              Terre Haute, IN<br>
+              47802<br>
+              United States
+            </p>
+            <p class="footer-col__text">
+  <a class="footer-link" href="mailto:stgeorgeorth@gmail.com">stgeorgeorth@gmail.com
+  </a>
+  <a class="footer-link" href="tel:+18122325244">(812)-232-5244</a>
+</p>
+
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col__title">About Us</h4>
+            <a class="footer-col__link" href="services.html">Church Services</a>
+            <a class="footer-col__link" href="clergy.html">Clergy</a>
+            <a class="footer-col__link" href="laity.html">Laity</a>
+            <a class="footer-col__link" href="welcomeGuide.html">New Members</a>
+            <a class="footer-col__link" href="patronSaint.html">Patron Saints</a>
+          </div><div class="footer-col">
+            <h4 class="footer-col__title">Our Beliefs</h4>
+            <a class="footer-col__link" href="articles.html">Articles</a>
+            <a class="footer-col__link" href="prayers.html">Prayers</a>
+            <a class="footer-col__link" href="reflections.html">Reflections/Homilies</a>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col__title">Also See</h4>
+            <a class="footer-col__link" href="#">Bulletin</a>
+            <a class="footer-col__link" href="#">Media</a>
+            <a class="footer-col__link" href="https://forms.gle/EeXXZSRTJjDKivx8A" target="_blank" rel="noopener noreferrer">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

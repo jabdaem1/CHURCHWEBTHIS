@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>St. George Orthodox Church | Home</title>
+
+  <!-- Fonts similar to the design -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top strip -->
+  <div class="top-strip">
+    <div class="container top-strip__inner">
+      <div class="social">
+        <a class="social__btn" href="https://www.instagram.com/stgeorgeterrehaute/" target="_blank"
+   rel="noopener noreferrer" aria-label="Instagram">
+          <img class="social__icon" src="instagramButton.png" alt="Instagram" />
+        </a>
+        <a class="social__btn" href="https://www.youtube.com/channel/UC_gXxXkQIO84Xg648N2pahg" target="_blank"
+   rel="noopener noreferrer" aria-label="YouTube">
+          <img class="social__icon" src="youtubeButton.png" alt="YouTube" />
+        </a>
+        <a class="social__btn" href="https://www.tiktok.com/@saintgeorgeterrehaute" target="_blank"
+   rel="noopener noreferrer" aria-label="TikTok">
+            <img class="social__icon" src="tiktokButton.png" alt="TikTok" />
+        </a>
+        <a class="social__btn" href="https://www.facebook.com/groups/stgeorgeterrehaute/" target="_blank"
+   rel="noopener noreferrer" aria-label="Facebook">
+    <svg class="social__svg" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="currentColor"
+        d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.9.3-1.6 1.7-1.6h1.5V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3H10v8h3.5z"/>
+    </svg>
+  </a>
+
+      </div>
+
+      <a class="top-strip__contact" href="https://forms.gle/EeXXZSRTJjDKivx8A" target="_blank"
+   rel="noopener noreferrer">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#">
+        <img class="brand__icon-img" src="stgeorgePic.png" alt="St. George logo" />
+        <div class="brand__text">
+          <div class="brand__name">St.George</div>
+          <div class="brand__sub">of Terre Haute</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav__link" href="index.html">Home</a>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="aboutUs.html" aria-haspopup="true" aria-expanded="false">
+            About Us <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="About Us">
+            <a class="dropdown__link" href="clergy.html" role="menuitem">Clergy</a>
+            <a class="dropdown__link" href="patronSaint.html" role="menuitem">Patron Saint</a>
+            <a class="dropdown__link" href="services.html" role="menuitem">Church Services</a>
+            <a class="dropdown__link" href="links.html" role="menuitem">Links</a>
+          </div>
+        </div>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="information.html" aria-haspopup="true" aria-expanded="false">
+            Information <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="Information">
+            <a class="dropdown__link" href="#" role="menuitem">Articles</a>
+            <a class="dropdown__link" href="prayers.html" role="menuitem">Prayers</a>
+            <a class="dropdown__link" href="#" role="menuitem">Reflections/Homilies</a>
+          </div>
+        </div>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="ministries.html" aria-haspopup="true" aria-expanded="false">
+            Ministries <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="Ministries">
+            <a class="dropdown__link" href="altarBoys.html" role="menuitem">Altar Servers</a>
+            <a class="dropdown__link" href="soil.html" role="menuitem">SOIL</a>
+            <a class="dropdown__link" href="ladiesSociety.html" role="menuitem">Ladies Society</a>
+            <a class="dropdown__link" href="mensClub.html" role="menuitem">Men's Club</a>
+            <a class="dropdown__link" href="teenSoyo.html" role="menuitem">Teen Soyo</a>
+            <a class="dropdown__link" href="sundaySchool.html" role="menuitem">Sunday School</a>
+            <a class="dropdown__link" href="parishCouncil.html" role="menuitem">Parish Council</a>
+          </div>
+        </div>
+
+        <a class="nav__link" href="events.html">Events</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        ☰
+      </button>
+    </div>
+
+    <!-- Mobile nav -->
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <div class="container mobile-nav__inner">
+        <a class="mobile-nav__link" href="index.html">Home</a>
+        <a class="mobile-nav__link" href="aboutUs.html">About Us</a>
+        <a class="mobile-nav__link" href="information.html">Information</a>
+        <a class="mobile-nav__link" href="ministries.html">Ministries</a>
+        <a class="mobile-nav__link" href="events.html">Events</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero page-hero--ministries">
+      <div class="page-hero__shade" aria-hidden="true"></div>
+      <div class="container page-hero__inner">
+        <h1 class="page-hero__title">Clergy</h1>
+      </div>
+    </section>
+    <!-- Two-column layout (same structure as ministries.html) -->
+    <section class="min-page">
+      <div class="container min-layout">
+
+        <!-- Main content (left) -->
+        <div class="min-main">
+
+          <!-- FR HABIB -->
+          <section id="fr-habib" class="min-section">
+            <h2 class="min-h2">Fr. Habib Ghantous</h2>
+
+            <!-- This wrapper uses only your existing classes, but adds a new small layout helper below in CSS if needed -->
+            <div class="clergy-row">
+              <img class="clergy-photo" src="habibPic.png" alt="Fr. Habib Ghantous" />
+              <div class="clergy-text">
+                <p class="min-p">
+                  Fr. Habib Ghantous has served the Antiochian Orthodox Christian Church with devotion, humility,
+                  and pastoral love for nearly two decades. Ordained to the Holy Priesthood in 2005, Father Habib
+                  spent many years offering liturgical services, preaching and ministering to the faithful during
+                  weekends and evenings while simultaneously working full-time in the corporate sector. In 2025,
+                  he answered the calling to serve full-time in parish ministry at St. George Orthodox Church in
+                  Terre Haute, Indiana.
+                </p>
+
+                <p class="min-p">
+                  His ministry is rooted in humility, compassion, and a deep commitment to the spiritual well-being
+                  of the faithful. Fr. Habib is known for his heartfelt preaching, his pastoral presence during times
+                  of joy and sorrow, and his desire to help every person grow closer to Christ. He is especially
+                  dedicated to strengthening parish life through teaching the Faith, visiting the sick and homebound,
+                  guiding families, and fostering unity within the community.
+                </p>
+
+                <p class="min-p">
+                  Before entering full-time ministry, Fr. Habib spent more than three decades in program and project
+                  management, leading international teams and developing skills in organization, service, and mentorship.
+                  These experiences now support his ministry, helping him guide the parish with clarity, steadiness, and care.
+                </p>
+
+                <p class="min-p">
+                  Fr. Habib is a devoted husband to Khourieh Norma and a proud father to three sons. He is grateful for
+                  the privilege of serving the people of St. George and walking with them on the path of faith, hope, and love in Christ.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- DEACON ELIAS -->
+          <section id="deacon-elias" class="min-section">
+            <h2 class="min-h2">Rev. Archdeacon Elias Corey</h2>
+
+            <div class="clergy-row">
+              <img class="clergy-photo" src="deaconPic.png" alt="Rev. Archdeacon Elias Corey" />
+              <div class="clergy-text">
+                <p class="min-p">
+                  Rev. Archdeacon Elias Corey was born in Terre Haute, Indiana to Alexander and Jamily (Haddad/Shaheen) Corey.
+                  Lou or Louis as he is known in his secular life, married Denise Marie Deacon of Parma, Ohio. They met at a
+                  Parish Life Conference held in Akron, Ohio in 1977.
+                </p>
+
+                <p class="min-p">
+                  He continued his education at Indiana State University and later operated retail business in Terre Haute,
+                  ultimately opening Mister Corey’s Fine Footwear. He sang as a life member of the St. George Choir until he
+                  was asked to assist at the chanter’s stand and was guided toward ordination.
+                </p>
+
+                <p class="min-p">
+                  In 1986, Lou was ordained to the Holy Diaconate by His Eminence, Archbishop MICHAEL (Shaheen) of Toledo, Ohio.
+                  On Bright Thursday, April 12, 2018, he was elevated to the rank of Protodeacon by His Grace, Bishop ANTHONY
+                  of Toledo during a hierarchal visit, honoring his decades of dedicated service.
+                </p>
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+        <!-- Sidebar (right) -->
+        <aside class="min-sidebar" aria-label="Ministries list">
+          <div class="min-sidebar__card">
+            <h3 class="min-sidebar__title">Ministries</h3>
+
+            <a class="min-side-link" href="altarBoys.html">Altar Servers</a>
+            <a class="min-side-link" href="soil.html">S.O.I.L.</a>
+            <a class="min-side-link" href="ladiesSociety.html">Ladies Society</a>
+            <a class="min-side-link" href="mensClub.html">Men's Club</a>
+            <a class="min-side-link" href="teenSoyo.html">Teen SOYO</a>
+            <a class="min-side-link" href="churchSchool.html">Sunday School</a>
+            <a class="min-side-link" href="parishCouncil.html">Parish Council</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <div class="footer__divider"><span></span><span class="footer__cross"></span><span></span></div>
+
+      <div class="footer__grid">
+        <div class="footer-col">
+          <h4 class="footer-col__title">Location</h4>
+          <p class="footer-col__text">
+            1900 S 4th St<br>
+            Terre Haute, IN<br>
+            47802<br>
+            United States
+          </p>
+
+          <p class="footer-col__text">
+            <a class="footer-link" href="mailto:stgeorgeorth@gmail.com">stgeorgeorth@gmail.com</a>
+            <a class="footer-link" href="tel:+18122325244">(812)-232-5244</a>
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col__title">About Us</h4>
+          <a class="footer-col__link" href="services.html">Church Services</a>
+          <a class="footer-col__link" href="clergy.html">Clergy</a>
+          <a class="footer-col__link" href="#">Laity</a>
+          <a class="footer-col__link" href="welcome.html">New Members</a>
+          <a class="footer-col__link" href="patronSaint.html">Patron Saints</a>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col__title">Our Beliefs</h4>
+          <a class="footer-col__link" href="articles.html">Articles</a>
+          <a class="footer-col__link" href="prayers.html">Prayers</a>
+          <a class="footer-col__link" href="reflections.html">Reflections/Homilies</a>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col__title">Also See</h4>
+          <a class="footer-col__link" href="#">Bulletin</a>
+          <a class="footer-col__link" href="#">Media</a>
+          <a class="footer-col__link" href="https://forms.gle/EeXXZSRTJjDKivx8A" target="_blank"
+   rel="noopener noreferrer">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

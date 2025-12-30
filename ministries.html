@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>St. George Orthodox Church | Home</title>
+
+  <!-- Fonts similar to the design -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top strip -->
+  <div class="top-strip">
+    <div class="container top-strip__inner">
+      <div class="social">
+        <a class="social__btn" href="https://www.instagram.com/stgeorgeterrehaute/" target="_blank"
+   rel="noopener noreferrer" aria-label="Instagram">
+          <img class="social__icon" src="instagramButton.png" alt="Instagram" />
+        </a>
+        <a class="social__btn" href="https://www.youtube.com/channel/UC_gXxXkQIO84Xg648N2pahg" target="_blank"
+   rel="noopener noreferrer" aria-label="YouTube">
+          <img class="social__icon" src="youtubeButton.png" alt="YouTube" />
+        </a>
+        <a class="social__btn" href="https://www.tiktok.com/@saintgeorgeterrehaute" target="_blank"
+   rel="noopener noreferrer" aria-label="TikTok">
+            <img class="social__icon" src="tiktokButton.png" alt="TikTok" />
+        </a>
+        <a class="social__btn" href="https://www.facebook.com/groups/stgeorgeterrehaute/" target="_blank"
+   rel="noopener noreferrer" aria-label="Facebook">
+    <svg class="social__svg" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="currentColor"
+        d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.9.3-1.6 1.7-1.6h1.5V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3H10v8h3.5z"/>
+    </svg>
+  </a>
+
+      </div>
+
+      <a class="top-strip__contact" href="https://forms.gle/EeXXZSRTJjDKivx8A" target="_blank" rel="noopener noreferrer">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__icon-img" src="stgeorgePic.png" alt="St. George logo" />
+        <div class="brand__text">
+          <div class="brand__name">St.George</div>
+          <div class="brand__sub">of Terre Haute</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav__link" href="index.html">Home</a>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="aboutUs.html" aria-haspopup="true" aria-expanded="false">
+            About Us <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="About Us">
+            <a class="dropdown__link" href="clergy.html" role="menuitem">Clergy</a>
+            <a class="dropdown__link" href="patronSaint.html" role="menuitem">Patron Saint</a>
+            <a class="dropdown__link" href="services.html" role="menuitem">Church Services</a>
+            <a class="dropdown__link" href="links.html" role="menuitem">Links</a>
+          </div>
+        </div>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="information.html" aria-haspopup="true" aria-expanded="false">
+            Information <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="Information">
+            <a class="dropdown__link" href="articles.html" role="menuitem">Articles</a>
+            <a class="dropdown__link" href="prayers.html" role="menuitem">Prayers</a>
+            <a class="dropdown__link" href="reflections.html" role="menuitem">Reflections/Homilies</a>
+          </div>
+        </div>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="ministries.html" aria-haspopup="true" aria-expanded="false">
+            Ministries <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="Ministries">
+            <a class="dropdown__link" href="altarBoys.html" role="menuitem">Altar Servers</a>
+            <a class="dropdown__link" href="soil.html" role="menuitem">SOIL</a>
+            <a class="dropdown__link" href="ladiesSociety.html" role="menuitem">Ladies Society</a>
+            <a class="dropdown__link" href="mensClub.html" role="menuitem">Men's Club</a>
+            <a class="dropdown__link" href="teenSoyo.html" role="menuitem">Teen Soyo</a>
+            <a class="dropdown__link" href="sundaySchool.html" role="menuitem">Sunday School</a>
+            <a class="dropdown__link" href="parishCouncil.html" role="menuitem">Parish Council</a>
+          </div>
+        </div>
+
+        <a class="nav__link" href="events.html">Events</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        ☰
+      </button>
+    </div>
+
+    <!-- Mobile nav -->
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <div class="container mobile-nav__inner">
+        <a class="mobile-nav__link" href="index.html">Home</a>
+        <a class="mobile-nav__link" href="aboutUs.html">About Us</a>
+        <a class="mobile-nav__link" href="information.html">Information</a>
+        <a class="mobile-nav__link" href="ministries.html">Ministries</a>
+        <a class="mobile-nav__link" href="events.html">Events</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero page-hero--ministries">
+      <div class="page-hero__shade" aria-hidden="true"></div>
+      <div class="container page-hero__inner">
+        <h1 class="page-hero__title">Ministries</h1>
+      </div>
+    </section>
+    <!-- Two-column layout -->
+    <section class="min-page">
+      <div class="container min-layout">
+        <!-- Main content (left) -->
+        <div class="min-main">
+          <section id="mission" class="min-section">
+            <h2 class="min-h2">Mission Statement</h2>
+            <p class="min-p">
+              St. George Antiochian Orthodox Church exists to glorify God and to nurture the spiritual life of our parish family through the fullness of the Orthodox Christian faith. We strive to offer a welcoming home for all parishioners—infants through senior citizens—where each person can grow in moral, ethical, and spiritual formation rooted in the teachings of Christ and His Holy Church. Through prayer, worship, education, and pastoral care, we seek to strengthen every individual and family in living a Christ-centered life.
+              As a parish community, we are committed to sharing the love, joy, and hope of the Gospel with our neighbors throughout Indiana. Guided by the life of the Church and empowered by the grace of the Holy Spirit, we aim to be a living witness of Orthodox Christianity through works of mercy, hospitality, outreach, and compassionate service—so that Christ may be known and His name glorified in our community.
+            </p>
+          </section>
+
+          <section id="goal" class="min-section">
+            <h2 class="min-h2">Goal</h2>
+            <p class="min-p">
+The goal of our parish is the same goal of every Orthodox Christian life: union with God through Jesus Christ, lived out in the daily rhythm of worship, prayer, repentance, and faithful discipleship. This goal is realized by creating meaningful opportunities for all parishioners to become fully integrated into the total life of the Church—actively participating in worship, growing in spiritual understanding, and serving one another with humility and love.
+
+The success of this goal depends on building a strong parish foundation centered on healthy, Christ-like relationships. These relationships are cultivated through steadfast love, honesty, trust, openness, respect, and forgiveness—virtues that reflect the heart of the Gospel and the way of life taught by the Church. When these pillars are embraced together, they strengthen our unity as a parish family and deepen our commitment to living the Orthodox faith not only inside the храм (church), but also in our homes, workplaces, and wider community.
+
+With this goal in mind, parishioners are encouraged to participate in ministries and programs that support spiritual growth and active involvement—helping each person internalize these virtues and put them into practice through service, fellowship, learning, and outreach. In doing so, we grow together as one Body in Christ, bearing witness to His truth and love in Indiana and beyond.
+            </p>
+          </section>
+        </div>
+
+        <!-- Sidebar (right) -->
+        <aside class="min-sidebar" aria-label="Ministries list">
+          <div class="min-sidebar__card">
+            <h3 class="min-sidebar__title">Ministries</h3>
+
+            <a class="min-side-link" href="altarBoys.html">Altar Servers</a>
+            <a class="min-side-link" href="soil.html">S.O.I.L.</a>
+            <a class="min-side-link" href="ladiesSociety.html">Ladies Society</a>
+            <a class="min-side-link" href="mensClub.html">Men's Club</a>
+            <a class="min-side-link" href="teenSoyo.html">Teen SOYO</a>
+            <a class="min-side-link" href="churchSchool.html">Church School</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="container footer__inner">
+        <div class="footer__divider"><span></span><span class="footer__cross">
+        </span><span></span></div>
+
+
+        <div class="footer__grid">
+          <div class="footer-col">
+            <h4 class="footer-col__title">Location</h4>
+            <p class="footer-col__text">
+              1900 S 4th St<br>
+              Terre Haute, IN<br>
+              47802<br>
+              United States
+            </p>
+            <p class="footer-col__text">
+  <a class="footer-link" href="mailto:stgeorgeorth@gmail.com">stgeorgeorth@gmail.com
+  </a>
+  <a class="footer-link" href="tel:+18122325244">(812)-232-5244</a>
+</p>
+
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col__title">About Us</h4>
+            <a class="footer-col__link" href="services.html">Church Services</a>
+            <a class="footer-col__link" href="clergy.html">Clergy</a>            <a class="footer-col__link" href="#">Laity</a>
+            <a class="footer-col__link" href="#">New Members</a>
+            <a class="footer-col__link" href="patronSaint.html">Patron Saints</a>
+          </div><div class="footer-col">
+            <h4 class="footer-col__title">Our Beliefs</h4>
+            <a class="footer-col__link" href="articles.html">Articles</a>
+            <a class="footer-col__link" href="prayers.html">Prayers</a>
+            <a class="footer-col__link" href="reflections.html">Reflections/Homilies</a>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col__title">Also See</h4>
+            <a class="footer-col__link" href="#">Bulletin</a>
+            <a class="footer-col__link" href="#">Media</a>
+            <a class="footer-col__link" href="https://forms.gle/EeXXZSRTJjDKivx8A" target="_blank" rel="noopener noreferrer">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+            

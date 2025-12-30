@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>St. George Orthodox Church | Home</title>
+
+  <!-- Fonts similar to the design -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top strip -->
+  <div class="top-strip">
+    <div class="container top-strip__inner">
+      <div class="social">
+        <a class="social__btn" href="https://www.instagram.com/stgeorgeterrehaute/" target="_blank"
+   rel="noopener noreferrer" aria-label="Instagram">
+          <img class="social__icon" src="instagramButton.png" alt="Instagram" />
+        </a>
+        <a class="social__btn" href="https://www.youtube.com/channel/UC_gXxXkQIO84Xg648N2pahg" target="_blank"
+   rel="noopener noreferrer" aria-label="YouTube">
+          <img class="social__icon" src="youtubeButton.png" alt="YouTube" />
+        </a>
+        <a class="social__btn" href="https://www.tiktok.com/@saintgeorgeterrehaute" target="_blank"
+   rel="noopener noreferrer" aria-label="TikTok">
+            <img class="social__icon" src="tiktokButton.png" alt="TikTok" />
+        </a>
+        <a class="social__btn" href="https://www.facebook.com/groups/stgeorgeterrehaute/" target="_blank"
+   rel="noopener noreferrer" aria-label="Facebook">
+    <svg class="social__svg" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="currentColor"
+        d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.9.3-1.6 1.7-1.6h1.5V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3H10v8h3.5z"/>
+    </svg>
+  </a>
+
+      </div>
+
+      <a class="top-strip__contact" href="https://forms.gle/EeXXZSRTJjDKivx8A" target="_blank" rel="noopener noreferrer">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__icon-img" src="stgeorgePic.png" alt="St. George logo" />
+        <div class="brand__text">
+          <div class="brand__name">St.George</div>
+          <div class="brand__sub">of Terre Haute</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav__link" href="index.html">Home</a>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="aboutUs.html" aria-haspopup="true" aria-expanded="false">
+            About Us <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="About Us">
+            <a class="dropdown__link" href="clergy.html" role="menuitem">Clergy</a>
+            <a class="dropdown__link" href="patronSaint.html" role="menuitem">Patron Saint</a>
+            <a class="dropdown__link" href="services.html" role="menuitem">Church Services</a>
+            <a class="dropdown__link" href="links.html" role="menuitem">Links</a>
+          </div>
+        </div>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="information.html" aria-haspopup="true" aria-expanded="false">
+            Information <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="Information">
+            <a class="dropdown__link" href="articles.html" role="menuitem">Articles</a>
+            <a class="dropdown__link" href="prayers.html" role="menuitem">Prayers</a>
+            <a class="dropdown__link" href="reflections.html" role="menuitem">Reflections/Homilies</a>
+          </div>
+        </div>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="ministries.html" aria-haspopup="true" aria-expanded="false">
+            Ministries <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="Ministries">
+            <a class="dropdown__link" href="altarBoys.html" role="menuitem">Altar Servers</a>
+            <a class="dropdown__link" href="soil.html" role="menuitem">SOIL</a>
+            <a class="dropdown__link" href="ladiesSociety.html" role="menuitem">Ladies Society</a>
+            <a class="dropdown__link" href="mensClub.html" role="menuitem">Men's Club</a>
+            <a class="dropdown__link" href="teenSoyo.html" role="menuitem">Teen Soyo</a>
+            <a class="dropdown__link" href="sundaySchool.html" role="menuitem">Sunday School</a>
+            <a class="dropdown__link" href="parishCouncil.html" role="menuitem">Parish Council</a>
+          </div>
+        </div>
+
+        <a class="nav__link" href="events.html">Events</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        ☰
+      </button>
+    </div>
+
+    <!-- Mobile nav -->
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <div class="container mobile-nav__inner">
+        <a class="mobile-nav__link" href="index.html">Home</a>
+        <a class="mobile-nav__link" href="aboutUs.html">About Us</a>
+        <a class="mobile-nav__link" href="information.html">Information</a>
+        <a class="mobile-nav__link" href="ministries.html">Ministries</a>
+        <a class="mobile-nav__link" href="events.html">Events</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero page-hero--ministries">
+      <div class="page-hero__shade" aria-hidden="true"></div>
+      <div class="container page-hero__inner">
+        <h1 class="page-hero__title">Patron Saint</h1>
+      </div>
+    </section>
+
+
+      <div class="container">
+        <div class="section__rule" aria-hidden="true"></div>
+
+        <div class="about-card">
+          <p>
+    Saint George is one of the most beloved saints in the Orthodox Church and the heavenly patron of countless parishes—especially throughout the Antiochian Archdiocese. He is remembered as a courageous martyr who loved Christ more than comfort, reputation, or even life itself. His witness reminds the faithful that holiness is not reserved for a few, but is a calling for every Christian: to live with integrity, to confess the truth, and to remain faithful to God no matter the cost.
+
+Historically, Saint George lived during a time of intense persecution of Christians in the Roman Empire. He was a soldier of high rank, known for his discipline and honor, yet he chose obedience to Christ above obedience to any earthly ruler. When the emperor demanded that all citizens sacrifice to idols, Saint George openly proclaimed that he was a Christian. Rather than deny his faith, he accepted suffering and death—offering his life as a sacrifice of love to the One who had first given His life for the world.
+
+The Church calls him a “Great Martyr,” not because he sought fame, but because his endurance was extraordinary. Orthodox tradition remembers that Saint George endured severe tortures with unwavering courage, strengthened by the grace of God. His steadfastness became a powerful testimony, turning hearts toward Christ and encouraging other believers to stand firm. In the hymns of the Church, he is praised as a fearless champion who conquered not with weapons, but with faith.
+
+Many people also know Saint George through the famous icon of him slaying the dragon. The Church understands this image not simply as a historical story, but as a spiritual proclamation: Christ defeats evil, and His saints share in that victory. The dragon represents the power of darkness—fear, sin, oppression, and deception—and Saint George’s victory symbolizes the triumph of truth, purity, and courage through God’s power. The image teaches us that the Christian life is real spiritual warfare, and that with Christ we do not have to be defeated by what threatens us.
+
+For an Antiochian Orthodox parish bearing his name, Saint George is more than a figure from the past—he is a living intercessor and a model of discipleship. He teaches us to be brave in faith, compassionate toward others, and unwavering in our love for Christ. When we honor Saint George, we are reminded that every generation is called to holiness: to pray with sincerity, to serve with humility, to defend what is good, and to trust that God’s victory is stronger than any trial we face.
+
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="container footer__inner">
+        <div class="footer__divider"><span></span><span class="footer__cross">
+        </span><span></span></div>
+
+
+        <div class="footer__grid">
+          <div class="footer-col">
+            <h4 class="footer-col__title">Location</h4>
+            <p class="footer-col__text">
+              1900 S 4th St<br>
+              Terre Haute, IN<br>
+              47802<br>
+              United States
+            </p>
+            <p class="footer-col__text">
+  <a class="footer-link" href="mailto:stgeorgeorth@gmail.com">stgeorgeorth@gmail.com
+  </a>
+  <a class="footer-link" href="tel:+18122325244">(812)-232-5244</a>
+</p>
+
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col__title">About Us</h4>
+            <a class="footer-col__link" href="services.html">Church Services</a>
+            <a class="footer-col__link" href="clergy.html">Clergy</a>
+            <a class="footer-col__link" href="#">Laity</a>
+            <a class="footer-col__link" href="welcome.html">New Members</a>
+            <a class="footer-col__link" href="patronSaint.html">Patron Saints</a>
+          </div><div class="footer-col">
+            <h4 class="footer-col__title">Our Beliefs</h4>
+            <a class="footer-col__link" href="articles.html">Articles</a>
+            <a class="footer-col__link" href="prayers.html">Prayers</a>
+            <a class="footer-col__link" href="reflections.html">Reflections/Homilies</a>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col__title">Also See</h4>
+            <a class="footer-col__link" href="#">Bulletin</a>
+            <a class="footer-col__link" href="#">Media</a>
+            <a class="footer-col__link" href="https://forms.gle/EeXXZSRTJjDKivx8A" target="_blank" rel="noopener noreferrer">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

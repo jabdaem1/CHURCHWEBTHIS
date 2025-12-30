@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>St. George Orthodox Church | Home</title>
+
+  <!-- Fonts similar to the design -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top strip -->
+  <div class="top-strip">
+    <div class="container top-strip__inner">
+      <div class="social">
+        <a class="social__btn" href= "https://www.instagram.com/stgeorgeterrehaute/" target="_blank"
+   rel="noopener noreferrer" aria-label="Instagram">
+          <img class="social__icon" src="instagramButton.png" alt="Instagram" />
+        </a>
+        <a class="social__btn" href="https://www.youtube.com/channel/UC_gXxXkQIO84Xg648N2pahg" target="_blank"
+   rel="noopener noreferrer"aria-label="YouTube">
+          <img class="social__icon" src="youtubeButton.png" alt="YouTube" />
+        </a>
+        <a class="social__btn" href="https://www.tiktok.com/@saintgeorgeterrehaute" target="_blank"
+   rel="noopener noreferrer" aria-label="TikTok">
+            <img class="social__icon" src="tiktokButton.png" alt="TikTok" />
+        </a>
+        <a class="social__btn" href="https://www.facebook.com/groups/stgeorgeterrehaute/" target="_blank"
+   rel="noopener noreferrer" aria-label="Facebook">
+    <svg class="social__svg" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="currentColor"
+        d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.9.3-1.6 1.7-1.6h1.5V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3H10v8h3.5z"/>
+    </svg>
+  </a>
+
+      </div>
+
+      <a class="top-strip__contact" href="https://forms.gle/EeXXZSRTJjDKivx8A"   target="_blank"
+   rel="noopener noreferrer">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__icon-img" src="stgeorgePic.png" alt="St. George logo" />
+        <div class="brand__text">
+          <div class="brand__name">St.George</div>
+          <div class="brand__sub">of Terre Haute</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav__link" href="index.html">Home</a>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="aboutUs.html" aria-haspopup="true" aria-expanded="false">
+            About Us <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="About Us">
+            <a class="dropdown__link" href="clergy.html" role="menuitem">Clergy</a>
+            <a class="dropdown__link" href="patronSaint.html" role="menuitem">Patron Saint</a>
+            <a class="dropdown__link" href="services.html" role="menuitem">Church Services</a>
+            <a class="dropdown__link" href="links.html" role="menuitem">Links</a>
+          </div>
+        </div>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="information.html" aria-haspopup="true" aria-expanded="false">
+            Information <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="Information">
+            <a class="dropdown__link" href="articles.html" role="menuitem">Articles</a>
+            <a class="dropdown__link" href="prayers.html" role="menuitem">Prayers</a>
+            <a class="dropdown__link" href="reflections.html" role="menuitem">Reflections/Homilies</a>
+          </div>
+        </div>
+
+        <div class="nav__item nav__item--dropdown">
+          <a class="nav__link" href="ministries.html" aria-haspopup="true" aria-expanded="false">
+            Ministries <span class="chev">›</span>
+          </a>
+          <div class="dropdown" role="menu" aria-label="Ministries">
+            <a class="dropdown__link" href="altarBoys.html" role="menuitem">Altar Servers</a>
+            <a class="dropdown__link" href="soil.html" role="menuitem">SOIL</a>
+            <a class="dropdown__link" href="ladiesSociety.html" role="menuitem">Ladies Society</a>
+            <a class="dropdown__link" href="mensClub.html" role="menuitem">Men's Club</a>
+            <a class="dropdown__link" href="teenSoyo.html" role="menuitem">Teen Soyo</a>
+            <a class="dropdown__link" href="sundaySchool.html" role="menuitem">Sunday School</a>
+            <a class="dropdown__link" href="parishCouncil.html" role="menuitem">Parish Council</a>
+          </div>
+        </div>
+
+        <a class="nav__link" href="events.html">Events</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        ☰
+      </button>
+    </div>
+
+    <!-- Mobile nav -->
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <div class="container mobile-nav__inner">
+        <a class="mobile-nav__link" href="index.html">Home</a>
+        <a class="mobile-nav__link" href="aboutUs.html">About Us</a>
+        <a class="mobile-nav__link" href="information.html">Information</a>
+        <a class="mobile-nav__link" href="ministries.html">Ministries</a>
+        <a class="mobile-nav__link" href="events.html">Events</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero page-hero--ministries">
+      <div class="page-hero__shade" aria-hidden="true"></div>
+      <div class="container page-hero__inner">
+        <h1 class="page-hero__title">About Us</h1>
+      </div>
+    </section>
+
+  <!-- Main -->
+  <main>
+
+      <div class="container">
+        <div class="section__rule" aria-hidden="true"></div>
+
+        <div class="about-card">
+          <p>
+            St. George Antiochian Orthodox Church is a local parish community of the Antiochian Orthodox Christian Archdiocese of North America,
+            under the pastoral leadership of His Eminence Metropolitan Saba, Archbishop of New York and All North America. Our parish belongs to the
+            Diocese of Toledo and the Midwest, guided by Archimandrite Jeremy (Davis), Archiepiscopal Vicar. We are part of the ancient Orthodox
+            Patriarchate of Antioch — the city where “the disciples were first called Christians” (Acts 11:26). St. George Church is also part of the
+            worldwide fellowship of Orthodox churches across every land and culture, united in the faith and worship of Jesus Christ.
+          </p>
+
+          <p>
+            Founded by faithful families who settled in the Terre Haute area nearly a century ago, our parish continues to be a spiritual home for
+            Orthodox Christians and those seeking the fullness of the Apostolic Faith. We are committed to worshiping the Holy Trinity, proclaiming the
+            Gospel, and serving our local community through fellowship, education, and charitable works.
+          </p>
+
+          <p>
+            We invite you to join us for worship, learning, and community life at St. George. For more information, please contact our church office at
+            <a href="tel:+18122325244">(812) 232-5244</a>.
+            Our pastor, Fr. Habib Ghantous, will be glad to welcome you personally.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+      <section class="section section--spacious about-section"></section>
+
+<!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="container footer__inner">
+        <div class="footer__divider"><span></span><span class="footer__cross">
+        </span><span></span></div>
+
+
+        <div class="footer__grid">
+          <div class="footer-col">
+            <h4 class="footer-col__title">Location</h4>
+            <p class="footer-col__text">
+              1900 S 4th St<br>
+              Terre Haute, IN<br>
+              47802<br>
+              United States
+            </p>
+            <p class="footer-col__text">
+  <a class="footer-link" href="mailto:stgeorgeorth@gmail.com">stgeorgeorth@gmail.com
+  </a>
+  <a class="footer-link" href="tel:+18122325244">(812)-232-5244</a>
+</p>
+
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col__title">About Us</h4>
+            <a class="footer-col__link" href="services.html">Church Services</a>
+            <a class="footer-col__link" href="clergy.html">Clergy</a>
+            <a class="footer-col__link" href="welcome.html">New Members</a>
+            <a class="footer-col__link" href="patronSaint.html">Patron Saints</a>
+          </div><div class="footer-col">
+            <h4 class="footer-col__title">Our Beliefs</h4>
+            <a class="footer-col__link" href="articles.html">Articles</a>
+            <a class="footer-col__link" href="prayers.html">Prayers</a>
+            <a class="footer-col__link" href="reflections.html">Reflections/Homilies</a>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col__title">Also See</h4>
+            <a class="footer-col__link" href="#">Bulletin</a>
+            <a class="footer-col__link" href="#">Media</a>
+            <a class="footer-col__link" href="https://forms.gle/EeXXZSRTJjDKivx8A"   target="_blank"
+   rel="noopener noreferrer">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
