@@ -917,3 +917,16 @@ button{ font: inherit; }
   display: grid;
   justify-items: center;
 }
+.membership {
+  padding-bottom: 80px; /* creates space above the footer */
+}
+
+.membership-text {
+  margin-bottom: 18px;
+}
+
+.membership-pdf {
+  display: inline-block;
+  margin-bottom: 40px; /* extra breathing room */
+  text-decoration: underline;
+}
