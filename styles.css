@@ -930,3 +930,105 @@ button{ font: inherit; }
   margin-bottom: 40px; /* extra breathing room */
   text-decoration: underline;
 }
+/* INDEX.HTML – How You Can Contribute section */
+.contribute h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+
+.contribute p {
+  font-size: 1.0rem;
+  line-height: 1.65;
+
+
+}
+
+/* INDEX.HTML – Featured News & Events */
+.featured h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.featured p {
+  font-size: 1.0rem;
+  line-height: 1.65;
+}
+
+/* INDEX.HTML – How to Get Involved */
+.get-involved h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.get-involved p {
+  font-size: 1.0rem;
+  line-height: 1.65;
+}
+
+/* INDEX.HTML – Calendar */
+.calendar h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.calendar p {
+  font-size: 1.0rem;
+  line-height: 1.65;
+}
+/* INDEX.HTML – Featured News & Events */
+section h2:contains("Featured") {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+section h2:contains("Events") {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+/* INDEX.HTML – Calendar */
+section h2:contains("Calendar") {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+/* Featured News & Events */
+.card h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+/* INDEX.HTML – Calendar section title + spacing */
+.section.section--spacious .section__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+/* Space between section title/rule and cards */
+.featured-section .section__rule {
+  margin-bottom: 4.5rem;
+}
+/* Reduce space AFTER Featured cards */
+.featured-section {
+  margin-bottom: 2rem;   /* tighten gap */
+}
+.featured-section {
+  margin-bottom: 1.5rem;
+}
+/* Remove extra space under cards */
+.featured-grid {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.featured-section {
+  margin-bottom: 1.5rem;
+}
+
+.featured-grid {
+  margin-bottom: 0;
+}
+
+.featured-section + .section {
+  padding-top: 2rem;
+}
